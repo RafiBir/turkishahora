@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
@@ -13,10 +14,15 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">TA</span>
-            </div>
+          <Link href="/" className="flex items-center gap-3">
+            <Image
+              src="/logo-turkish-ahora.png"
+              alt="Turkish Ahora logo"
+              width={40}
+              height={40}
+              className="h-10 w-10 rounded-md object-cover"
+              priority
+            />
             <span className="font-[family-name:var(--font-space-grotesk)] font-bold text-xl text-foreground">
               Turkish Ahora
             </span>

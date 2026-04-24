@@ -18,21 +18,8 @@ export const metadata: Metadata = {
   description: 'Aprende turco de manera fácil y práctica. Clases personalizadas para hispanohablantes que quieren viajar, vivir o trabajar en Turquía.',
   keywords: ['aprender turco', 'clases de turco', 'turco para hispanohablantes', 'Turkish Ahora'],
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/logo-turkish-ahora.png',
+    apple: '/logo-turkish-ahora.png',
   },
 }
 

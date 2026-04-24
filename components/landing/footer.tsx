@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Instagram, Youtube, Mail, Phone } from "lucide-react"
 
 export function Footer() {
@@ -8,10 +9,14 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">TA</span>
-              </div>
+            <Link href="/" className="flex items-center gap-3 mb-4">
+              <Image
+                src="/logo-turkish-ahora.png"
+                alt="Turkish Ahora logo"
+                width={40}
+                height={40}
+                className="h-10 w-10 rounded-md object-cover"
+              />
               <span className="font-[family-name:var(--font-space-grotesk)] font-bold text-xl text-background">
                 Turkish Ahora
               </span>
