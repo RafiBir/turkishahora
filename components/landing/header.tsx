@@ -16,7 +16,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/logo-turkish-ahora.png"
+              src="logo-turkish-ahora.png"
               alt="Turkish Ahora logo"
               width={40}
               height={40}

@@ -1,3 +1,3 @@
 :HL["/turkishahora/_next/static/chunks/13rfms16juua~.css","style"]
 :HL["/turkishahora/_next/static/chunks/17.d5syh7f3qa.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"pS2hkrTe7bLSfC0Ic9F0f"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"AIVEMrSIgyHNS_JfdzBCe"}
